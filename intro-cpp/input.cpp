@@ -3,8 +3,10 @@ using namespace std;
 
 int main()
 {
-    int a;
-    cin >> a;
-    cout << a << endl;
+    // int a, b;
+    // cin >> a >> b;
+    char name[100];
+    cin.getline(name, 100);
+    cout << name << endl;
     return 0;
 }
